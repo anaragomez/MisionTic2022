@@ -1,0 +1,22 @@
+decena = int(input("Ingrese un numero del 0 al 9: "))
+unidad = int(input("Ingrese otro numero del 0 al 9: "))
+
+if ((decena == 5) and (unidad == 4)):  #54 #  V and V = V
+
+  print("Se ganó 10.000 pesos")
+
+elif ((decena == 4) and (unidad == 5)):  #45 V and V = V
+
+  print("Se ganó 3.000 pesos")
+
+elif ((decena == 5) or (unidad == 4)):  # 5 o 4  V or F = V  y F or V = V
+
+  print("Se ganó 1.000 pesos")
+
+elif ((decena == 4) or (unidad == 5)):
+
+  print("Se ganó 1.000 pesos")
+
+else:
+  print("No sé ganó nada")
+ 
